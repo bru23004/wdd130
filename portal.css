@@ -1,3 +1,4 @@
+
 body {
     background-color: beige;
 }
@@ -11,10 +12,37 @@ a {
 }
 nav {
     display: flex;
+    justify-content: center;
+}
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 15px;
 }
 img {
-    image-resolution: 1080px;
+    width: 100%;
+    margin:0 auto;
 }
 #primary {
-    background-color: aqua;
+    background-color: beige;
+}
+a :hover {
+    background-color: darkgrey
+    color(white)
+}
+p {
+    text-align: center;
+    padding: 15;
+}
+footer{
+    background-color: blanchedalmond;
+}
+footer p {
+    text-align: center;
+    background-color: lightgrey;
+    padding: 30px;
+    border-top: 15px;
+}
+.background {
+    background-color: lightgrey;
 }
