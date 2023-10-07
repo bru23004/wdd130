@@ -1,12 +1,12 @@
 #content {
     max-width: 1600px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left:0 auto;
-    margin-right:0 auto;
+    color: white;
 }
+head {
+    text-align: center;}
 nav a{
     text-align: center;
+    text-decoration: none;
 }
 .hero-msg h1 {
     text-align: center;
@@ -17,8 +17,9 @@ nav a{
 .button-box {
     text-align: center;
 }
-main section {
+.river {
     text-align: center;
+    margin:0 auto;
 }
 #background {
     height: 725px;
@@ -26,24 +27,32 @@ main section {
 }
 
 body {
-    background-color: #F2F6D0;
+    background-color:#3C4F76 ;
 }
 header {
-    background-color: #67aaf9;
+    text-align: center;
+    background-color: #8FB8DE;
+}
+header section {
+    text-align: center;
 }
 nav a:hover {
-    background-color: #21897e;
+    background-color: #F2F6D0;
 }
 .book, .join {
-    background-color: #21897e;
+    background-color: #8FB8DE;
 }
 .book:hover, .join:hover {
     background-color: #67aaf9;
 }
 .msg {
-    background-color: #242F40;
+    background-color: #40531B;
 }
 footer {
     background-color: #F2F6D0;
+    text-decoration: none;
+    color: black;
 }
-
+#hero{
+    text-align: center;
+}
