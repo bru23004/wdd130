@@ -22,11 +22,28 @@ main section {
 }
 #background {
     height: 725px;
+    background-color: #67aaf9;
 }
 
 body {
-    background-color: #242F40;
+    background-color: #F2F6D0;
 }
 header {
     background-color: #67aaf9;
 }
+nav a:hover {
+    background-color: #21897e;
+}
+.book, .join {
+    background-color: #21897e;
+}
+.book:hover, .join:hover {
+    background-color: #67aaf9;
+}
+.msg {
+    background-color: #242F40;
+}
+footer {
+    background-color: #F2F6D0;
+}
+
