@@ -1,12 +1,27 @@
+* {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
 #content {
     max-width: 1600px;
     color: white;
+}
+#Logo_link {
+        padding-top: 5px;
+}
+.top {
+    box-sizing: content-box;
+    
+}
+.separation {
+    border-bottom: solid white 15px;
 }
 head {
     text-align: center;}
 nav a{
     text-align: center;
     text-decoration: none;
+    padding:35px;
 }
 .hero-msg h1 {
     text-align: center;
@@ -20,18 +35,19 @@ nav a{
 .river {
     text-align: center;
     margin:0 auto;
+    
 }
 #background {
     height: 725px;
     background-color: #67aaf9;
 }
-
 body {
     background-color:#3C4F76 ;
 }
+
 header {
     text-align: center;
-    background-color: #8FB8DE;
+    background-color:  #F2F6D0;
 }
 header section {
     text-align: center;
@@ -41,18 +57,51 @@ nav a:hover {
 }
 .book, .join {
     background-color: #8FB8DE;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #67aaf9;
 }
 .msg {
-    background-color: #40531B;
+    background-color:  #8FB8DE;
+    text-align: center;
+    padding: 35px;
 }
 footer {
     background-color: #F2F6D0;
     text-decoration: none;
     color: black;
+    text-align: center;
+    padding: 25px 50px;
+    margin: 200px;
+}
+footer .facebook img {
+    padding-top: 15px;
 }
 #hero{
     text-align: center;
+}
+.mountains {
+    margin:0 auto;
+}
+.home_title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+.mgs p {
+    font-size: 8em;
+    padding-bottom: 15px;
+}
+.icon {padding-top: 10px;}
+.river-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+.card-img {
+    border: 10px solid black;
+}
+main img {
+    box-sizing: border-box;
 }
